@@ -1,9 +1,15 @@
 import React from 'react';
+import Banner from './Banner/Banner';
+import './Home.css'
+
 
 const Home = () => {
+
     return (
-        <div className=' container mx-auto m-auto '>
-            <h1 className=' font-bold text-4xl'>This is home page</h1>
+        <div className="home">
+            <div className="home-main">
+                <Banner></Banner>
+            </div>
         </div>
     );
 };

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     const menuItem = <>
-        <li><Link to='home'>Item 1</Link></li>
+        <li><Link to='home'>Home</Link></li>
         <li><Link to='appointment'>Appointment</Link></li>
         <li><Link to='review'>Review</Link></li>
         <li><Link to='contact'>Contact</Link></li>

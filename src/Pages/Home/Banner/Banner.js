@@ -4,7 +4,7 @@ import chair from '../../../assets/images/chair.png'
 
 const Banner = () => {
     return (
-        <div className='banner-main hero container min-h-screen mx-auto m-auto sm:px-2'>
+        <div className='banner-main hero container lg:min-h-screen h-[600px] mx-auto m-auto sm:px-2'>
             <div className="flex items-center flex-col lg:flex-row-reverse space-y-5">
                 <div className="banner-img ">
                     <img src={chair} alt="" />
@@ -14,7 +14,6 @@ const Banner = () => {
                     <p className='lg:w-5/6' >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p>
                     <button className='bg-gradient-to-r from-[#19D3AE] to-[#0FCFEC] px-[20px] py-[12px] rounded text-white mt-[35px]'>GET STARTED</button>
                 </div>
-
             </div>
         </div>
     );

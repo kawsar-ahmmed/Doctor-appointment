@@ -4,3 +4,18 @@
     background-repeat: no-repeat;
     width: 100%;
 }
+.make-appointment, .home-form {
+    background: url('../../assets/images/appointment.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.footer {
+    background: url('../../assets/images/footer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.form-button {
+    margin-top: 30px !important;
+}

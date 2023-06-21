@@ -3,14 +3,6 @@ import React from 'react';
 const Service = ({ service, setTreatment }) => {
   const { name, slots } = service;
 
-  const handleBookingAppointment = () => {
-    // Perform any necessary actions before opening the modal
-    if (window.bookingModal && typeof window.bookingModal.showModal === 'function') {
-      window.bookingModal.showModal();
-    }
-  };
-
-
 
   return (
     <div className="card lg:max-w-screen-lg shadow-xl items-center">
@@ -28,16 +20,12 @@ const Service = ({ service, setTreatment }) => {
           )}
         </p>
         <div className="card-actions justify-center">
-          <button
+          <label
             onClick={() => {
               setTreatment(service);
-              handleBookingAppointment();
             }}
             disabled={slots.length === 0}
-            className="btn btn-primary"
-          >
-            Booking Appointment
-          </button>
+            className='btn btn-primary text-neutral' htmlFor="my_modal_6" >Book Appointment</label>
         </div>
       </div>
     </div>
